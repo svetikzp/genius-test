@@ -3,7 +3,7 @@
 }*/
 
 .box {
-  /* display: inline-block; */
+  display: inline-block;
 
   box-sizing: border-box;
   width: 100px;
@@ -21,4 +21,20 @@ padding-left: 42px;
 */
   /* padding: 16px 42px 16px 42px; */
   /* padding: 16px 42px; */
+}
+
+/* .box-gold {
+  background-color: gold;
+}*/
+
+/*.box:first-child {
+  background-color: gold;
+}*/
+/*.box:nth-child(even) {
+  background-color: gold;
+}*/
+
+.box:nth-child(2n + 3) {
+  /* 3, 5, 7 */
+  background-color: gold;
 }
