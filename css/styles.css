@@ -38,6 +38,10 @@
 }
 
 /* Base */
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--color-primary-dark);
   font-family: 'Poppins', sans-serif;
@@ -47,6 +51,7 @@ body {
 }
 
 address {
+  font-style: normal;
 }
 
 ul {
