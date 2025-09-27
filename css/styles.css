@@ -427,7 +427,7 @@ ul {
 .footer-address {
   flex-basis: 50%;
   display: flex;
-  flex-grow: 1;
+  /*flex-grow: 1;*/
   gap: 20px;
 }
 
@@ -466,17 +466,22 @@ ul {
   font-size: 14px;
 }
 
+/* Modal */
 .backdrop {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0, 5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal {
   width: 880px;
   right: 880px;
   background-color: var(--color-primary-light);
+  border-radius: 32px;
 }
