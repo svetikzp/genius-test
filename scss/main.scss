@@ -22,3 +22,17 @@
 @import './components/links';
 @import './components/modal';
 @import './components/traditions-section';
+
+@import './utils/mixins';
+
+/* .circle {
+  @include circle(100px, 100px, white);
+}
+
+.circle-big {
+  @include circle(200px, 200px, green);
+}
+
+.circle-small {
+  @include circle(50px, 50px, red);
+} */
