@@ -210,3 +210,32 @@ padding-left: 42px;
   background-color: orange;
   transform: skew(20deg, 20deg);
 }
+/* Checkbox */
+.checkbox {
+  position: relative;
+}
+
+.checkbox-input {
+  appearance: none;
+}
+
+.checkbox-input:checked + .checkbox-label::before {
+  background-color: green;
+  /*background-image: url(./img...); */
+}
+
+.checkbox-label {
+  padding-left: 24px;
+}
+
+.checkbox-label::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 1px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid darkgreen;
+  border-radius: 2px;
+  content: '';
+}
