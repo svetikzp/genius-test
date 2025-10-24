@@ -19,7 +19,7 @@
   transform: scale(1.05);
 }
 
-.format-image {
+.format__image {
   position: absolute;
   z-index: -1;
   top: 0;
@@ -28,17 +28,13 @@
   height: 100%;
 }
 
-.formats-title {
-  margin-bottom: 80px;
-}
-
-.format-title {
+.format__title {
   font-size: 40px;
   font-weight: 600;
   color: var(--color-brand-light);
 }
 
-.format-text {
+.format__text {
   font-size: 14px;
   font-weight: 300;
   color: var(--color-primary-light);

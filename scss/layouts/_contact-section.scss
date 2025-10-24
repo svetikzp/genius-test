@@ -2,16 +2,16 @@
   padding-bottom: 96px;
 }
 
-.contact-container {
+.contact__container {
   display: flex;
   gap: 32px;
 }
 
-.contact-title {
+.contact__title {
   margin-bottom: 16px;
 }
 
-.contact-map {
+.contact__map {
   flex-shrink: 0;
   border: none;
   border-radius: 16px;

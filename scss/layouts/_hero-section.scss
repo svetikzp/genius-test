@@ -13,7 +13,7 @@
   /*background-attachment: fixed;*/
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 0;
   color: var(--color-primary-light);
   text-align: center;
@@ -21,6 +21,6 @@
   font-weight: 900;
 }
 
-.hero-title .accent {
+.hero__title .accent {
   color: var(--color-brand-normal);
 }

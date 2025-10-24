@@ -3,29 +3,34 @@
   gap: 100px;
 }
 
-.traditions-container {
+.traditions__container {
   display: flex;
   justify-content: space-between;
   gap: 40px;
 }
 
-.traditions-content {
+.traditions__content {
   max-width: 710px;
 }
 
-.traditions-title {
+.traditions__title {
   margin-bottom: 42px;
 }
 
-.traditions-text .brand {
+.traditions__text .brand {
   color: var(--color-brand-normal);
   font-weight: 600;
 }
 
-.traditions-text .uppercase {
+.traditions__text .uppercase {
   text-transform: uppercase;
 }
 
-.traditions-text.limited {
+.traditions__text.limited {
   max-width: 340px;
+}
+
+.traditions-section__image {
+  display: none;
+  border-radius: 400px 400px 0px 0px;
 }
